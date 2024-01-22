@@ -17,7 +17,8 @@ mongoose.connect('mongodb://localhost:27017/yelp-camp', {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
-    // useFindandModify: false
+    //why it is not supported
+    //useFindandModify: false
 });
 
 const db = mongoose.connection;
