@@ -9,7 +9,7 @@ const UserSchema = new Schema({
         unique: true
     }
 });
-
+//nothing new
 UserSchema.plugin(passportLocalMongoose);
 
 module.exports = mongoose.model('User', UserSchema);
